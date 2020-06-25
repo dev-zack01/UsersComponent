@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a2ceb9;
+}
+
+.person {
+  background: #eeeeee;
+  width: 20rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  transition: all 0.3s linear;
+  border-radius: 0.3rem;
+  text-align: center;
+  font-family: "Source code pro", Verdana, sans-serif;
+}
+
+.person img {
+  border-radius: 50%;
+  border: 0.1rem solid teal;
+}
+
+.person h4 {
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  letter-spacing: 0.15rem;
+  color: rgb(189, 47, 83);
+
+}
+
+
+.person:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  
+}
